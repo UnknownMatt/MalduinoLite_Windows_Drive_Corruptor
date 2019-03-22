@@ -31,38 +31,6 @@ void setup()
 
     Keyboard.begin();
     Mouse.begin();
-    
-     delay(defaultDelay);
-    Keyboard.press(KEY_LEFT_GUI);
-    Keyboard.press(114);
-    Keyboard.releaseAll();
-
-    delay(defaultDelay);
-    delay(500);
-
-    delay(defaultDelay);
-    Keyboard.print("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-
-    delay(defaultDelay);
-    Keyboard.press(KEY_RETURN);
-    Keyboard.releaseAll();
-
-    delay(defaultDelay);
-    delay(500);
-
-     Keyboard.press(KEY_LEFT_SHIFT);
-    Keyboard.press(KEY_LEFT_GUI);
-    Keyboard.press(KEY_DOWN_ARROW);
-    Keyboard.releaseAll();
-
-    delay(defaultDelay);
-    delay(500);
-
-    Keyboard.press(KEY_LEFT_SHIFT);
-    Keyboard.press(KEY_LEFT_GUI);
-    Keyboard.press(KEY_DOWN_ARROW);
-    Keyboard.releaseAll();
-
    }
 }
 
@@ -76,6 +44,22 @@ void loop()
     Keyboard.begin();
     Mouse.begin();
     delay(4000);
+
+    delay(defaultDelay);
+    Keyboard.press(KEY_LEFT_ALT);
+    Keyboard.press(KEY_F4);
+    Keyboard.releaseAll();
+
+    delay(defaultDelay);
+    delay(40);
+
+    delay(defaultDelay);
+    Keyboard.press(KEY_LEFT_ALT);
+    Keyboard.press(KEY_F4);
+    Keyboard.releaseAll();
+
+    delay(defaultDelay);
+    delay(40);
 
     delay(defaultDelay);
     Keyboard.press(KEY_LEFT_GUI);
